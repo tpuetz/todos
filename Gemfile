@@ -6,10 +6,12 @@ gem 'rails', '3.2.12'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3'
+gem 'high_voltage'
 
 
 group :test, :development do
 	gem 'rspec-rails'
+	gem 'capybara', '1.1.4'
 end
 
 # Gems used only for assets and not required
